@@ -1,4 +1,6 @@
-# calcppwonet
-Multifunctional Calculator<br>
-(too long won't write): 
-Lets make the best calculator in the entire universe
+<h1># calcppwonet</h1>
+
+<br>
+
+<h2>LETS MAKE THE BEST CALCULATOR EVER IN THE ENTIRE UNIVERSES</h2>
+
