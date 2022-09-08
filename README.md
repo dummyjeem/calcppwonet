@@ -1,4 +1,6 @@
 <h1># calcppwonet</h1>
+<br>
+<p>aka calculator without internet</p>
 
 <br>
 
