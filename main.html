@@ -1,0 +1,840 @@
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
+<form method="post" action="">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 justify-content-center">
+                <div class="col text-center mb-3 mb-md-5">
+                        <label for="Operand1" class="form-label fs-3">First Number</label>
+                        <input id="Operand1" name="Operand1" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand1)?$Operand1:''; ?>">
+                </div>
+                <div class="col text-center mb-3 mb-md-4">
+                        <label for="Operand2" class="form-label fs-3">Second Number</label>
+                        <input id="Operand2" name="Operand2" type="number" step="any" class="form-control form-control-custom" value="<?php echo isset($Operand2)?$Operand2:''; ?>">
+                </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+                <div class="col-auto">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="+">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="-">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="x">
+                        <input class="btn btn-success fs-2" type="submit" name="Calculate" value="/">
+                </div>
+        </div>
+</form>
+
+<?php if(isset($Result) && is_numeric($Result)){?><!-- Display Result -->
+<div class="row justify-content-center">
+        <div class="col text-center">
+                <label for="Result" class="fs-4">Result</label>
+                <input id="Result" name="Result" type="number" step="any" class="form-control form-control-custom" value="<?php echo $Result; ?>">
+        </div>
+</div>
+<?php } if(isset($Error)){?><!-- Display Error Messages -->
+<div class="row justify-content-center">
+        <div class="col">
+                <div class="alert alert-danger shadow-sm" role="alert">Error: <?php echo $Error; ?></div>
+        </div>
+</div>
+<?php } ?>
